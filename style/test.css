@@ -1,0 +1,35 @@
+.test{
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.test:hover{
+    color: red;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 2.5s;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* justify-content: end; */
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.box{
+    padding: 10px;
+    background-color: red;
+    width: 120px;
+}
+
+.box2{
+    background-color: green;
+}
+
+.box3{
+    background-color: blue;
+}
