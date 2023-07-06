@@ -45,6 +45,9 @@
     /* border: 2px solid gray; */
     background-image: url("/img/background.png"),linear-gradient(45deg,#424141,#000);
     color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .title{
@@ -72,4 +75,16 @@
     background-color:rgb(181, 236, 77);
     padding: 20px 50px;
     transition: 2.5s;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+.about-title{
+    text-align: center;
+    padding-top: 20px;
 }
