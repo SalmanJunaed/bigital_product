@@ -12,11 +12,13 @@
 
 .container{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     /* justify-content: space-between; */
-    /* justify-content: space-around; */
+    justify-content: space-around;
     /* justify-content: space-evenly; */
     /* justify-content: end; */
+    border: 5px solid gray;
+    height: 450px;
     align-items: center;
     flex-direction: row-reverse;
 }
@@ -24,6 +26,7 @@
     padding: 10px;
     background-color: red;
     width: 120px;
+    height: 150px;
 }
 
 .box2{
