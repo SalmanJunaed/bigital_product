@@ -31,3 +31,45 @@
 .item:hover{
     color:aquamarine;
 }
+
+.banner-img{
+    width: 300px;
+    cursor: pointer;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    /* border: 2px solid gray; */
+    background-image: url("/img/background.png"),linear-gradient(45deg,#424141,#000);
+    color: white;
+}
+
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+
+    /* border-radius: 5px; */
+}
+
+.btn:hover{
+    color: #000;
+    cursor: pointer;
+    background-color:rgb(181, 236, 77);
+    padding: 20px 50px;
+    transition: 2.5s;
+}
